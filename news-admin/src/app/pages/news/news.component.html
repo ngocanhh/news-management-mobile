@@ -1,0 +1,66 @@
+<div class=" content">
+  <div class=" row">
+    <div class=" col-md-12">
+      <div class=" card">
+        <div class=" card-header">
+          <h4 class=" card-title">News Management</h4>
+          <p class="text-right">
+            <button [routerLink]="['/news/new']" routerLinkActive="router-link-active"  class="btn btn-primary">
+              Add news
+            </button>
+          </p>
+        </div>
+        <div class=" card-body">
+          <div class=" table-responsive">
+            <table class=" table tablesorter overflow-hidden" id="">
+              <thead class=" text-primary">
+                <tr>
+                  <th>ID</th>
+                  <th>Title</th>
+                  <th>Content</th>
+                  <th>Description</th>
+                  <th>Num of Click</th>
+                  <th>Published Date</th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let new of news">
+                  <td>
+                    {{new.id}}
+                  </td>
+                  <td>
+                    {{new.title}}
+                  </td>
+                  <td>
+                    {{new.content}}
+                  </td>
+                  <td>
+                    {{new.description}}
+                  </td>
+                  <td>
+                    {{new.numOfCLicks}}
+                  </td>
+                  <td>
+                    {{new.pubDate | date: 'dd/MM/yyyy'}}
+                  </td>
+                  <td>
+                    <button (click)="gotoDetail(new.id)" class=" btn btn-icon">
+                      <i class=" tim-icons icon-pencil"> </i>
+                    </button>
+                  </td>
+                  <td>
+                    <button (click)="onDelete(new.id)" class=" btn btn-icon">
+                      <i class=" tim-icons icon-trash-simple"> </i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,42 @@
+<div class=" content">
+  <div class=" row">
+    <div class=" col-md-12">
+      <div class=" card">
+        <div class=" card-header">
+          <h5 class=" title">Create News</h5>
+        </div>
+        <div class=" card-body">
+          <form [formGroup]="newsForm">
+            <div class=" row">
+              <div class=" col-md-12 pr-md-1">
+                <div class=" form-group">
+                  <label> Title </label>
+                  <input formControlName="title" class=" form-control" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-12 pr-md-1">
+                <div class=" form-group">
+                  <label> Description </label>
+                  <input formControlName="description" class=" form-control" type="text" />
+                </div>
+              </div>
+            </div>
+            <div class=" row">
+              <div class=" col-md-12 pr-md-1">
+                <div class=" form-group">
+                  <label> Content </label>
+                  <input formControlName="content" class=" form-control" type="text" />
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class=" card-footer">
+          <button (click)="onCreate()" class=" btn btn-fill btn-danger" type="submit">Save</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,163 @@
+com/group22/news_management/view/activity/NewsDetailActivity.java
+ com.group22.news_management.view.activity.NewsDetailActivity
+ com.group22.news_management.view.activity.NewsDetailActivity$1
+com/group22/news_management/view/SignUpView.java
+ com.group22.news_management.view.SignUpView
+com/group22/news_management/model/WeatherForecastData.java
+ com.group22.news_management.model.WeatherForecastData
+com/group22/news_management/model/RoleModel.java
+ com.group22.news_management.model.RoleModel
+com/group22/news_management/model/Wind.java
+ com.group22.news_management.model.Wind
+com/group22/news_management/utils/HTMLParser.java
+ com.group22.news_management.utils.HTMLParser
+com/group22/news_management/model/NewsModel.java
+ com.group22.news_management.model.NewsModel
+com/group22/news_management/dao/impl/UserDAOImpl.java
+ com.group22.news_management.dao.impl.UserDAOImpl
+com/group22/news_management/view/activity/SettingsActivity.java
+ com.group22.news_management.view.activity.SettingsActivity
+com/group22/news_management/view/activity/SignUpActivity.java
+ com.group22.news_management.view.activity.SignUpActivity
+com/group22/news_management/dao/impl/RoleDAOImpl.java
+ com.group22.news_management.dao.impl.RoleDAOImpl
+com/group22/news_management/model/CategoryModel.java
+ com.group22.news_management.model.CategoryModel
+com/group22/news_management/app/FacebookApp.java
+ com.group22.news_management.app.FacebookApp
+com/group22/news_management/view/activity/ResetPasswordActivity.java
+ com.group22.news_management.view.activity.ResetPasswordActivity
+ com.group22.news_management.view.activity.ResetPasswordActivity$1
+com/group22/news_management/view/activity/ForgotPasswordActivity.java
+ com.group22.news_management.view.activity.ForgotPasswordActivity
+ com.group22.news_management.view.activity.ForgotPasswordActivity$1
+com/group22/news_management/model/SavedModel.java
+ com.group22.news_management.model.SavedModel
+com/group22/news_management/model/Main.java
+ com.group22.news_management.model.Main
+com/group22/news_management/view/activity/LoginActivity.java
+ com.group22.news_management.view.activity.LoginActivity
+ com.group22.news_management.view.activity.LoginActivity$1
+ com.group22.news_management.view.activity.LoginActivity$2
+com/group22/news_management/model/CommentModel.java
+ com.group22.news_management.model.CommentModel
+com/group22/news_management/view/activity/TypeVerifyCodeActivity.java
+ com.group22.news_management.view.activity.TypeVerifyCodeActivity
+ com.group22.news_management.view.activity.TypeVerifyCodeActivity$1
+com/group22/news_management/utils/XMLDOMParser.java
+ com.group22.news_management.utils.XMLDOMParser
+com/group22/news_management/view/activity/IntroActivity.java
+ com.group22.news_management.view.activity.IntroActivity
+ com.group22.news_management.view.activity.IntroActivity$1
+ com.group22.news_management.view.activity.IntroActivity$2
+ com.group22.news_management.view.activity.IntroActivity$3
+com/group22/news_management/presenter/impl/RolePresenterImpl.java
+ com.group22.news_management.presenter.impl.RolePresenterImpl
+com/group22/news_management/dao/RoleDAO.java
+ com.group22.news_management.dao.RoleDAO
+com/group22/news_management/api/WeatherAPI.java
+ com.group22.news_management.api.WeatherAPI
+com/group22/news_management/presenter/impl/LoginPresenterImpl.java
+ com.group22.news_management.presenter.impl.LoginPresenterImpl
+ com.group22.news_management.presenter.impl.LoginPresenterImpl$1
+com/group22/news_management/presenter/impl/CategoryPresenterImpl.java
+ com.group22.news_management.presenter.impl.CategoryPresenterImpl
+com/group22/news_management/view/activity/TrendingActivity.java
+ com.group22.news_management.view.activity.TrendingActivity
+ com.group22.news_management.view.activity.TrendingActivity$1
+com/group22/news_management/adapter/CommentListAdapter.java
+ com.group22.news_management.adapter.CommentListAdapter
+ com.group22.news_management.adapter.CommentListAdapter$1
+ com.group22.news_management.adapter.CommentListAdapter$ViewHolder
+com/group22/news_management/view/activity/HomeActivity.java
+ com.group22.news_management.view.activity.HomeActivity
+ com.group22.news_management.view.activity.HomeActivity$1
+ com.group22.news_management.view.activity.HomeActivity$2
+ com.group22.news_management.view.activity.HomeActivity$3
+ com.group22.news_management.view.activity.HomeActivity$ReadRSS
+com/group22/news_management/presenter/LoginPresenter.java
+ com.group22.news_management.presenter.LoginPresenter
+com/group22/news_management/model/UserModel.java
+ com.group22.news_management.model.UserModel
+com/group22/news_management/dao/UserDAO.java
+ com.group22.news_management.dao.UserDAO
+com/group22/news_management/model/Clouds.java
+ com.group22.news_management.model.Clouds
+com/group22/news_management/view/activity/WeatherForecastActivity.java
+ com.group22.news_management.view.activity.WeatherForecastActivity
+ com.group22.news_management.view.activity.WeatherForecastActivity$1
+ com.group22.news_management.view.activity.WeatherForecastActivity$2
+com/group22/news_management/presenter/SignUpPresenter.java
+ com.group22.news_management.presenter.SignUpPresenter
+com/group22/news_management/view/activity/ThemeActivity.java
+ com.group22.news_management.view.activity.ThemeActivity
+ com.group22.news_management.view.activity.ThemeActivity$1
+com/group22/news_management/utils/StringHandler.java
+ com.group22.news_management.utils.StringHandler
+com/group22/news_management/view/LoginView.java
+ com.group22.news_management.view.LoginView
+com/group22/news_management/adapter/CategoryListAdapter.java
+ com.group22.news_management.adapter.CategoryListAdapter
+ com.group22.news_management.adapter.CategoryListAdapter$1
+ com.group22.news_management.adapter.CategoryListAdapter$2
+ com.group22.news_management.adapter.CategoryListAdapter$ViewHolder
+com/group22/news_management/adapter/SavedNewsListAdapter.java
+ com.group22.news_management.adapter.SavedNewsListAdapter
+ com.group22.news_management.adapter.SavedNewsListAdapter$1
+ com.group22.news_management.adapter.SavedNewsListAdapter$ViewHolder
+com/group22/news_management/view/activity/UpdateAvatarActivity.java
+ com.group22.news_management.view.activity.UpdateAvatarActivity
+ com.group22.news_management.view.activity.UpdateAvatarActivity$1
+com/group22/news_management/view/activity/GetStartedActivity.java
+ com.group22.news_management.view.activity.GetStartedActivity
+ com.group22.news_management.view.activity.GetStartedActivity$1
+com/group22/news_management/view/activity/SaveNewsActivity.java
+ com.group22.news_management.view.activity.SaveNewsActivity
+ com.group22.news_management.view.activity.SaveNewsActivity$1
+com/group22/news_management/api/NewsManagementAPI.java
+ com.group22.news_management.api.NewsManagementAPI
+com/group22/news_management/view/activity/CommentActivity.java
+ com.group22.news_management.view.activity.CommentActivity
+ com.group22.news_management.view.activity.CommentActivity$1
+ com.group22.news_management.view.activity.CommentActivity$2
+com/group22/news_management/adapter/HotNewsListAdapter.java
+ com.group22.news_management.adapter.HotNewsListAdapter
+ com.group22.news_management.adapter.HotNewsListAdapter$1
+ com.group22.news_management.adapter.HotNewsListAdapter$ViewHolder
+com/group22/news_management/view/activity/UserProfileActivity.java
+ com.group22.news_management.view.activity.UserProfileActivity
+com/group22/news_management/presenter/impl/SignUpPresenterImpl.java
+ com.group22.news_management.presenter.impl.SignUpPresenterImpl
+ com.group22.news_management.presenter.impl.SignUpPresenterImpl$1
+com/group22/newsmanagerment/BuildConfig.java
+ com.group22.newsmanagerment.BuildConfig
+com/group22/news_management/presenter/RolePresenter.java
+ com.group22.news_management.presenter.RolePresenter
+com/group22/news_management/model/ResponseWeatherData.java
+ com.group22.news_management.model.ResponseWeatherData
+com/group22/news_management/view/HomeView.java
+ com.group22.news_management.view.HomeView
+com/group22/news_management/presenter/CategoryPresenter.java
+ com.group22.news_management.presenter.CategoryPresenter
+com/group22/news_management/adapter/NewsListAdapter.java
+ com.group22.news_management.adapter.NewsListAdapter
+ com.group22.news_management.adapter.NewsListAdapter$1
+ com.group22.news_management.adapter.NewsListAdapter$ViewHolder
+com/group22/news_management/model/Categories.java
+ com.group22.news_management.model.Categories
+com/group22/news_management/adapter/DailyWeatherForecastListAdapter.java
+ com.group22.news_management.adapter.DailyWeatherForecastListAdapter
+ com.group22.news_management.adapter.DailyWeatherForecastListAdapter$ViewHolder
+com/group22/news_management/database/DatabaseHelper.java
+ com.group22.news_management.database.DatabaseHelper
+com/group22/news_management/model/Weather.java
+ com.group22.news_management.model.Weather
+com/group22/news_management/presenter/impl/UserPresenterImpl.java
+ com.group22.news_management.presenter.impl.UserPresenterImpl
+com/group22/news_management/view/activity/AutoPlayVideoActivity.java
+ com.group22.news_management.view.activity.AutoPlayVideoActivity
+ com.group22.news_management.view.activity.AutoPlayVideoActivity$1
+com/group22/news_management/utils/Session.java
+ com.group22.news_management.utils.Session
+com/group22/news_management/presenter/UserPresenter.java
+ com.group22.news_management.presenter.UserPresenter

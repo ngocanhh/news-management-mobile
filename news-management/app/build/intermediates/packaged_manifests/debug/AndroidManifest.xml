@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.group22.newsmanagerment"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <queries>
+        <package android:name="com.facebook.all" />
+
+        <provider android:authorities="com.facebook.all" />
+    </queries> <!-- quyen truy cap Internet -->
+    <uses-permission android:name="android.permission.INTERNET" /> <!-- cho phep doc du lieu trong bo nho cua thiet bi -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+
+    <application
+        android:name="com.group22.news_management.app.FacebookApp"
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.NewsManagerment"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name="com.group22.news_management.view.activity.ResetPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.TypeVerifyCodeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.ForgotPasswordActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.TrendingActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.SaveNewsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.CommentActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.WeatherForecastActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.UpdateAvatarActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.UserProfileActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.NewsDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.LoginActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.IntroActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.group22.news_management.view.activity.ThemeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.SettingsActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.HomeActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.AutoPlayVideoActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.SignUpActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.group22.news_management.view.activity.GetStartedActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@style/com_facebook_activity_theme" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="cct.com.group22.newsmanagerment"
+                    android:scheme="fbconnect" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.facebook.CustomTabMainActivity" />
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.group22.newsmanagerment.com.squareup.picasso"
+            android:exported="false" />
+        <!--
+         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+         with the application context. This config is merged in with the host app's manifest,
+         but there can only be one provider with the same authority activated at any given
+         point; so if the end user has two or more different apps that use Facebook SDK, only the
+         first one will be able to use the provider. To work around this problem, we use the
+         following placeholder in the authority to identify each host application as if it was
+         a completely different provider.
+        -->
+        <provider
+            android:name="com.facebook.internal.FacebookInitProvider"
+            android:authorities="com.group22.newsmanagerment.FacebookInitProvider"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

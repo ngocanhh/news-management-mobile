@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/bookmark_selector.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/border.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/border_fill.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/comment_icon.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/custom_button.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/custom_dialog.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/ic_android_black_24dp.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/ic_baseline_account_circle_24.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable-v24/paper_title_icon.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/drawable/ic_baseline_extension_24.xml" value="0.1875" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/acticity_custom_dialog.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_autoplay_video.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_comment_history.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_customdialog_cancelsave.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_get_started.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_home.xml" value="0.176" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_intro.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_news.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_news_detail.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_notification_page.xml" value="0.152" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_policies_page.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_saved.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_settings.xml" value="0.264" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_signup.xml" value="0.2" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_termofuse_page.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_theme_mode.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_update_avatar.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/activity_user_profile.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/categories_rv_item.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/comment_item.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/news_rv_items.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/notification_item.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/trending.xml" value="0.2" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/trends_rv_items.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/layout/view_comment_notification.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/menu/bottom_appbar.xml" value="0.17135416666666667" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/menu/bottom_navigation.xml" value="0.264" />
+        <entry key="..\:/Applications/Git/Projects/news-management/news-management/app/src/main/res/menu/top_toolbar.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/app/src/main/res/drawable-v24/bookmark_selector.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/app/src/main/res/layout/acticity_custom_dialog.xml" value="0.23697916666666666" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/app/src/main/res/layout/activity_main.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24351851851851852" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/acticity_custom_dialog.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_autoplay_video.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_comment_history.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_customdialog_cancelsave.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_get_started.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_home.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_intro.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_login.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_news.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_news_detail.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_notification_page.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_policies_page.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_saved.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_settings.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_signup.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_termofuse_page.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_theme_mode.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_update_avatar.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_user_profile.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/activity_weather_forecast.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/categories_rv_item.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/comment_item.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/daily_weather_item.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/news_rv_items.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/layout/view_comment_notification.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/menu/bottom_appbar.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/GitHub/news-management/news-management/news-management/app/src/main/res/menu/bottom_navigation.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/drawable-v24/custom_button3.xml" value="0.2682291666666667" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/drawable-v24/ic_arrow_back.xml" value="0.2682291666666667" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/drawable/custom_button4.xml" value="0.2682291666666667" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/acticity_custom_dialog.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_autoplay_video.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_comment.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_comment_history.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_customdialog_cancelsave.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_forgot_password.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_home.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_intro.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_login.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_reset_password.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_saved.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_signup.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_type_verify_code.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/activity_user_profile.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/list_comment_item.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/saved_news_rv_items.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/trending.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/layout/trends_rv_items.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/menu/bottom_appbar.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/menu/bottom_navigation.xml" value="0.2520833333333333" />
+        <entry key="..\:/Users/ngocanhh/Desktop/news-management/news-management/news-management/app/src/main/res/menu/comment_appbar.xml" value="0.2520833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

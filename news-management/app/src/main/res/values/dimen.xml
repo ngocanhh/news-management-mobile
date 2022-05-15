@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Headingtextsize">15dp</dimen>
+    <dimen name="SubHeadingtextsize">13dp</dimen>
+    <dimen name="SmallContentSize">14dp</dimen>
+    <dimen name="RegularContentSize">18dp</dimen>
+    <dimen name="BigContentSize">24dp</dimen>
+    <dimen name="SuperBigContent">28dp</dimen>
+    <dimen name="SmallTitleSize">20dp</dimen>
+    <dimen name="RegularTitleSize">24dp</dimen>
+    <dimen name="BigTitleSize">28dp</dimen>
+    <dimen name="SuperBigTitleSize">32dp</dimen>
+    <dimen name="SearchTextSize">16dp</dimen>
+</resources>

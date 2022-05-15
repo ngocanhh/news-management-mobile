@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewListComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/editTextComment"
+        app:layout_constraintTop_toBottomOf="@id/materialToolbar"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <EditText
+        android:id="@+id/editTextComment"
+        android:layout_width="283dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/comment_hint"
+        android:background="#D0C6DD"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnSubmitComment"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmitComment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/editTextComment"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/custom_button4"
+        app:layout_constraintTop_toTopOf="@+id/editTextComment"
+        android:text="Gửi"
+        android:textSize="20sp" />
+
+    <com.google.android.material.appbar.MaterialToolbar
+        app:layout_constraintBottom_toTopOf="@id/recyclerViewListComment"
+        android:id="@+id/materialToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        app:labelVisibilityMode="unlabeled"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/comment_appbar"
+        app:navigationIcon="@drawable/ic_arrow_back"
+        tools:ignore="BottomAppBar">
+    </com.google.android.material.appbar.MaterialToolbar>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

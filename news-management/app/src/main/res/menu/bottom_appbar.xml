@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/icon_bookmark"
+        android:title="titlebookmark"
+        android:icon="@drawable/bookmark_selector"
+        app:showAsAction="always"
+        android:orderInCategory="3" >
+    </item>
+
+    <!--    bo layout moi bat su kien duoc-->
+    <item
+        android:id="@+id/icon_chat"
+        android:title="chat"
+        app:showAsAction="always"
+        android:orderInCategory="2" >
+    </item>
+
+    <item
+        android:id="@+id/icon_font_size"
+        android:title="fontsize"
+        android:icon="@drawable/fontsize_icon"
+        app:showAsAction="always"
+        android:orderInCategory="1" >
+    </item>
+
+</menu>

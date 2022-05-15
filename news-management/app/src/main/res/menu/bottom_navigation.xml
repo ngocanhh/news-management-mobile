@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/icon_paper"
+        android:title="paper"
+        android:icon="@drawable/ic_baseline_wysiwyg_24"
+        app:showAsAction="always" >
+    </item>
+
+    <item
+        android:id="@+id/trending_page"
+        android:title="title_trending"
+        android:icon="@drawable/ic_baseline_trending_up_24"
+        app:showAsAction="always" >
+    </item>
+
+    <item
+        android:id="@+id/extension_page"
+        android:icon="@drawable/ic_baseline_extension_24"
+        app:showAsAction="always"
+        android:title="title_extension" >
+
+    </item>
+
+    <item
+        android:id="@+id/personal_page"
+        android:title="title_personal"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        app:showAsAction="always" >
+    </item>
+
+
+</menu>

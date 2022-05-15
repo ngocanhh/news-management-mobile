@@ -1,0 +1,58 @@
+<div class=" content">
+  <div class=" row">
+    <div class=" col-md-12">
+      <div class=" card">
+        <div class=" card-header">
+          <h4 class=" card-title">User Management</h4>
+          <p class="text-right">
+            <button [routerLink]="['/user/new']" routerLinkActive="router-link-active" class="btn btn-primary">
+              Add user
+            </button>
+          </p>
+        </div>
+        <div class=" card-body">
+          <div class=" table-responsive">
+            <table class=" table tablesorter overflow-hidden" id="">
+              <thead class=" text-primary">
+                <tr>
+                  <th>ID</th>
+                  <th>Full-name</th>
+                  <th>Username</th>
+                  <th>CMND/CCCD</th>
+                  <th></th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let user of users">
+                  <td>
+                    {{user.id}}
+                  </td>
+                  <td>
+                    {{user.fullName}}
+                  </td>
+                  <td>
+                    {{user.username}}
+                  </td>
+                  <td>
+                    {{user.cmnd}}
+                  </td>
+                  <td>
+                    <button (click)="goToUserDetail(user.id)" class=" btn btn-icon">
+                      <i class=" tim-icons icon-pencil"> </i>
+                    </button>
+                  </td>
+                  <td>
+                    <button (click)="onDelete(user.id)" class=" btn btn-icon">
+                      <i class=" tim-icons icon-trash-simple"> </i>
+                    </button>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

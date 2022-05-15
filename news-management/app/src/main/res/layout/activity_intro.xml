@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:background="@drawable/hinhnen">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:gravity="center"
+            >
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signup"
+                android:layout_width="259dp"
+                android:layout_height="50dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="76dp"
+                android:layout_marginEnd="76dp"
+                android:background="@drawable/custom_button2"
+                android:text="@string/tao_tk"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_signin"
+                android:layout_width="259dp"
+                android:layout_height="50dp"
+                android:layout_below="@+id/btn_signup"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="76dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="76dp"
+                android:background="@drawable/custom_button2"
+                android:text="@string/dang_nhap"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_later"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/btn_signin"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="135dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="135dp"
+                android:background="@drawable/custom_button3"
+                android:text="@string/de_sau"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="#FBFBFB"
+                android:textSize="20sp">
+
+            </androidx.appcompat.widget.AppCompatButton>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,293 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.group22.newsmanagerment"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml
+10
+11    <queries>
+11-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:5:5-9:15
+12        <package android:name="com.facebook.all" />
+12-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:6:9-52
+12-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:6:18-49
+13
+14        <provider android:authorities="com.facebook.all" />
+14-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:8:9-60
+14-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:8:19-57
+15    </queries> <!-- quyen truy cap Internet -->
+16    <uses-permission android:name="android.permission.INTERNET" /> <!-- cho phep doc du lieu trong bo nho cua thiet bi -->
+16-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:11:5-80
+17-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:11:22-77
+18    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+18-->[com.android.installreferrer:installreferrer:1.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\5e97fe9d70f1643b9a21c3e0871996ef\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+18-->[com.android.installreferrer:installreferrer:1.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\5e97fe9d70f1643b9a21c3e0871996ef\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+19
+20    <application
+20-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:13:5-103:19
+21        android:name="com.group22.news_management.app.FacebookApp"
+21-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:14:9-67
+22        android:allowBackup="true"
+22-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:15:9-35
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.5.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\255d63c0f9f8f5d12ab3191ffb377750\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:16:9-43
+26        android:label="@string/app_name"
+26-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:17:9-41
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:18:9-54
+28        android:supportsRtl="true"
+28-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:19:9-35
+29        android:testOnly="true"
+30        android:theme="@style/Theme.NewsManagerment"
+30-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:20:9-53
+31        android:usesCleartextTraffic="true" >
+31-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:21:9-44
+32        <activity
+32-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:22:9-24:39
+33            android:name="com.group22.news_management.view.activity.ResetPasswordActivity"
+33-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:23:13-91
+34            android:exported="true" />
+34-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:24:13-36
+35        <activity
+35-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:25:9-27:39
+36            android:name="com.group22.news_management.view.activity.TypeVerifyCodeActivity"
+36-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:26:13-92
+37            android:exported="true" />
+37-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:27:13-36
+38        <activity
+38-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:28:9-30:39
+39            android:name="com.group22.news_management.view.activity.ForgotPasswordActivity"
+39-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:29:13-92
+40            android:exported="true" />
+40-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:30:13-36
+41        <activity
+41-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:31:9-33:39
+42            android:name="com.group22.news_management.view.activity.TrendingActivity"
+42-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:32:13-86
+43            android:exported="true" />
+43-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:33:13-36
+44        <activity
+44-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:34:9-36:39
+45            android:name="com.group22.news_management.view.activity.SaveNewsActivity"
+45-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:35:13-86
+46            android:exported="true" />
+46-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:36:13-36
+47        <activity
+47-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:37:9-39:39
+48            android:name="com.group22.news_management.view.activity.CommentActivity"
+48-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:38:13-85
+49            android:exported="true" />
+49-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:39:13-36
+50        <activity
+50-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:40:9-42:39
+51            android:name="com.group22.news_management.view.activity.WeatherForecastActivity"
+51-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:41:13-93
+52            android:exported="true" />
+52-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:42:13-36
+53        <activity
+53-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:43:9-45:39
+54            android:name="com.group22.news_management.view.activity.UpdateAvatarActivity"
+54-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:44:13-90
+55            android:exported="true" />
+55-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:45:13-36
+56        <activity
+56-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:46:9-48:39
+57            android:name="com.group22.news_management.view.activity.UserProfileActivity"
+57-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:47:13-89
+58            android:exported="true" />
+58-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:48:13-36
+59        <activity
+59-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:49:9-51:39
+60            android:name="com.group22.news_management.view.activity.NewsDetailActivity"
+60-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:50:13-88
+61            android:exported="true" />
+61-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:51:13-36
+62        <activity
+62-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:52:9-54:39
+63            android:name="com.group22.news_management.view.activity.LoginActivity"
+63-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:53:13-83
+64            android:exported="true" />
+64-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:54:13-36
+65        <activity
+65-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:55:9-63:20
+66            android:name="com.group22.news_management.view.activity.IntroActivity"
+66-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:56:13-83
+67            android:exported="true" >
+67-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:57:13-36
+68            <intent-filter>
+68-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:58:13-62:29
+69                <action android:name="android.intent.action.MAIN" />
+69-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:59:17-69
+69-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:59:25-66
+70
+71                <category android:name="android.intent.category.LAUNCHER" />
+71-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:61:17-77
+71-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:61:27-74
+72            </intent-filter>
+73        </activity>
+74        <activity
+74-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:64:9-66:39
+75            android:name="com.group22.news_management.view.activity.ThemeActivity"
+75-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:65:13-83
+76            android:exported="true" />
+76-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:66:13-36
+77        <activity
+77-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:67:9-69:39
+78            android:name="com.group22.news_management.view.activity.SettingsActivity"
+78-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:68:13-86
+79            android:exported="true" />
+79-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:69:13-36
+80        <activity
+80-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:70:9-72:39
+81            android:name="com.group22.news_management.view.activity.HomeActivity"
+81-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:71:13-82
+82            android:exported="true" />
+82-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:72:13-36
+83        <activity
+83-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:73:9-75:39
+84            android:name="com.group22.news_management.view.activity.AutoPlayVideoActivity"
+84-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:74:13-91
+85            android:exported="true" />
+85-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:75:13-36
+86        <activity
+86-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:76:9-78:39
+87            android:name="com.group22.news_management.view.activity.SignUpActivity"
+87-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:77:13-84
+88            android:exported="true" />
+88-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:78:13-36
+89        <activity
+89-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:79:9-81:39
+90            android:name="com.group22.news_management.view.activity.GetStartedActivity"
+90-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:80:13-88
+91            android:exported="true" />
+91-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:81:13-36
+92
+93        <meta-data
+93-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:83:9-85:55
+94            android:name="com.facebook.sdk.ApplicationId"
+94-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:84:13-58
+95            android:value="@string/facebook_app_id" />
+95-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:85:13-52
+96
+97        <activity
+97-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:87:9-90:48
+98            android:name="com.facebook.FacebookActivity"
+98-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:88:13-57
+99            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+99-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:89:13-96
+100            android:label="@string/app_name"
+100-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:90:13-45
+101            android:theme="@style/com_facebook_activity_theme" />
+101-->[com.facebook.android:facebook-common:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\b226fd983409c534e174940e0bd7fef7\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:33:13-63
+102        <activity
+102-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:91:9-102:20
+103            android:name="com.facebook.CustomTabActivity"
+103-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:92:13-58
+104            android:exported="true" >
+104-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:93:13-36
+105            <intent-filter>
+105-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:94:13-101:29
+106                <action android:name="android.intent.action.VIEW" />
+106-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:95:17-69
+106-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:95:25-66
+107
+108                <category android:name="android.intent.category.DEFAULT" />
+108-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:97:17-76
+108-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:97:27-73
+109                <category android:name="android.intent.category.BROWSABLE" />
+109-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:98:17-78
+109-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:98:27-75
+110
+111                <data android:scheme="@string/fb_login_protocol_scheme" />
+111-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:100:17-75
+111-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:100:23-72
+112            </intent-filter>
+113            <intent-filter>
+113-->[com.facebook.android:facebook-common:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\b226fd983409c534e174940e0bd7fef7\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:39:13-48:29
+114                <action android:name="android.intent.action.VIEW" />
+114-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:95:17-69
+114-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:95:25-66
+115
+116                <category android:name="android.intent.category.DEFAULT" />
+116-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:97:17-76
+116-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:97:27-73
+117                <category android:name="android.intent.category.BROWSABLE" />
+117-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:98:17-78
+117-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:98:27-75
+118
+119                <data
+119-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:100:17-75
+120                    android:host="cct.com.group22.newsmanagerment"
+121                    android:scheme="fbconnect" />
+121-->C:\Users\ngocanhh\Desktop\news-management\news-management\news-management\app\src\main\AndroidManifest.xml:100:23-72
+122            </intent-filter>
+123        </activity>
+124        <activity android:name="com.facebook.CustomTabMainActivity" />
+124-->[com.facebook.android:facebook-common:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\b226fd983409c534e174940e0bd7fef7\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:34:9-71
+124-->[com.facebook.android:facebook-common:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\b226fd983409c534e174940e0bd7fef7\transformed\jetified-facebook-common-12.2.0\AndroidManifest.xml:34:19-68
+125
+126        <provider
+126-->[com.squareup.picasso:picasso:2.71828] C:\Users\ngocanhh\.gradle\caches\transforms-3\d89ed92e1a110e206ee2edc29dab3eb1\transformed\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+127            android:name="com.squareup.picasso.PicassoProvider"
+127-->[com.squareup.picasso:picasso:2.71828] C:\Users\ngocanhh\.gradle\caches\transforms-3\d89ed92e1a110e206ee2edc29dab3eb1\transformed\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+128            android:authorities="com.group22.newsmanagerment.com.squareup.picasso"
+128-->[com.squareup.picasso:picasso:2.71828] C:\Users\ngocanhh\.gradle\caches\transforms-3\d89ed92e1a110e206ee2edc29dab3eb1\transformed\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+129            android:exported="false" />
+129-->[com.squareup.picasso:picasso:2.71828] C:\Users\ngocanhh\.gradle\caches\transforms-3\d89ed92e1a110e206ee2edc29dab3eb1\transformed\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+130        <!--
+131         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+132         with the application context. This config is merged in with the host app's manifest,
+133         but there can only be one provider with the same authority activated at any given
+134         point; so if the end user has two or more different apps that use Facebook SDK, only the
+135         first one will be able to use the provider. To work around this problem, we use the
+136         following placeholder in the authority to identify each host application as if it was
+137         a completely different provider.
+138        -->
+139        <provider
+139-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:39:9-42:40
+140            android:name="com.facebook.internal.FacebookInitProvider"
+140-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:40:13-70
+141            android:authorities="com.group22.newsmanagerment.FacebookInitProvider"
+141-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:41:13-72
+142            android:exported="false" />
+142-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:42:13-37
+143
+144        <receiver
+144-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:44:9-50:20
+145            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+145-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:45:13-86
+146            android:exported="false" >
+146-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:46:13-37
+147            <intent-filter>
+147-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:47:13-49:29
+148                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+148-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:48:17-95
+148-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:48:25-92
+149            </intent-filter>
+150        </receiver>
+151        <receiver
+151-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:51:9-57:20
+152            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+152-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:52:13-118
+153            android:exported="false" >
+153-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:53:13-37
+154            <intent-filter>
+154-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:54:13-56:29
+155                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+155-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:55:17-103
+155-->[com.facebook.android:facebook-core:12.2.0] C:\Users\ngocanhh\.gradle\caches\transforms-3\dbd7f8bf8e96d6cb5000db9dc6bfdaef\transformed\jetified-facebook-core-12.2.0\AndroidManifest.xml:55:25-100
+156            </intent-filter>
+157        </receiver>
+158    </application>
+159
+160</manifest>

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">News Management</string>
+    <string name="chao_mung">Chào mừng đến với Newspaper22</string>
+    <string name="loi_chao">Ứng dụng đọc bào trên nền tảng android. Cùng chúng tôi cập nhật thông tin mới nhất mỗi ngày </string>
+    <string name="bat_dau">Bắt đầu</string>
+    <string name="tao_tk">Tạo tài khoản</string>
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="de_sau">Để sau</string>
+    <string name="comment_hint">Nhập bình luận</string>
+    <string name="user_name">Tài khoản(*)</string>
+    <string name="password">Mật khẩu(*)</string>
+    <string name="retype_password">Nhập lại mật khẩu(*)</string>
+    <string name="nhac">Tạo tài khoản mới</string>
+    <string name="forgot_pass">Quên mật khẩu ?</string>
+    <string name="signup">Đăng ký</string>
+    <string name="Spaper">Newspaper 22</string>
+    <string name="user_name1">Tên đăng nhập(*)</string>
+    <string name="password1">Mật khẩu(*)</string>
+    <string name="xac_nhan">Bằng việc nhấn nút đăng ký. Bạn đã đồng ý các điều khoản sử dụng</string>
+    <string name="loi_nhac1">Bạn đã có tài khoản?</string>
+    <string name="thiet_lap">Thiết lập</string>
+    <string name="tu_dong">Tự động phát video</string>
+    <string name="Khi_dung_wifi">Khi dùng Wi-fi và dữ liệu di động</string>
+    <string name="Chi_khi">Chỉ khi có kết nối Wi-fi</string>
+    <string name="Khong_tu_dong_phat">Không tự động phát</string>
+    <string name="che_do">Chế độ nền tối</string>
+    <string name="danh_sach_da_luu">Danh sách đã lưu</string>
+    <string name="on">Bật</string>
+    <string name="off">Tắt</string>
+    <string name="he_thong">Hệ thống</string>
+    <string name="da_luu">Đã lưu</string>
+    <string name="facebook_app_id">567118787917985</string>
+    <string name="fb_login_protocol_scheme">fb567118787917985</string>
+    <string name="update_avatar">Cập nhật Avatar</string>
+</resources>
